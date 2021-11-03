@@ -8,7 +8,7 @@
 
 - import_tasks: configcopy.yml
   notify:
-     - restart-
+     - restart-nginx
 - meta: flush_handlers
 
 - import_tasks: confdcopy.yml
