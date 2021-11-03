@@ -1,0 +1,9 @@
+---
+- name: assign
+  hosts: webserver
+  #become: true
+
+  roles:
+    - mywebsite
+  #handlers:
+    #- include_tasks: roles/mywebsite/handlers/main.yml
